@@ -4,7 +4,7 @@ from rclpy.node import Node
 from std_msgs.msg import String
 from sensor_msgs.msg import LaserScan
 from example_interfaces.srv import SetBool
-from box_measurement_srv.srv import BoxDimensions
+from box_measurement_interface.srv import BoxDimensions
 import box_measurement.box_edges_detection as ed
 import matplotlib.pyplot as plt
 
